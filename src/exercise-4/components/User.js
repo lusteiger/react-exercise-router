@@ -3,7 +3,13 @@ import React from 'react';
 const User = () => {
   return (
     <div>
-      User profile page.
+      Username:XXX
+      <br />
+      Gender:Female
+      <br />
+      Work:It industy
+      <br />
+      Website:'/myprofile'
     </div>
   );
 };

@@ -1,6 +1,8 @@
 import React from 'react';
 
-const User = () => {
+const Profile = (props) => {
+  const url = props.location.pathname;
+
   return (
     <div>
       Username:XXX
@@ -9,9 +11,9 @@ const User = () => {
       <br />
       Work:It industy
       <br />
-      Website:'/myprofile'
+      Website: {`'${url}'`}
     </div>
   );
 };
 
-export default User;
+export default Profile;
